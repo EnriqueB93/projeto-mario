@@ -1,0 +1,229 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 200px;
+}
+
+.mario-luigi {
+    width: 400px;
+}
+
+button {
+    background-color: #c51111;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px;
+
+}
+
+body {
+    height: 100vh;
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 90px;
+    height: 100vh;
+
+}
+
+.caixa-principal {
+    width: 40vh;
+    color: white;
+}
+
+.caixa-video {
+
+    position: fixed;
+    z-index: -1;
+    top: 0%;
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0%;
+}
+
+.mascara {
+    top: 0%;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+    background: radial-gradient(circle, rgba(28, 28, 28, 0.7147233893557423) 0%, rgba(28, 28, 28, 1) 100%);
+}
+
+.link-whatsapp img {
+    height: 40px;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
+.cabezera{
+    
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 15px;
+}
+.cabezera img {
+    width: 150px;
+}
+
+.cabezera a{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.cabezera a:hover{
+    color:#c51111;
+    font-size: 28px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: gray ;
+    color: black;
+    transition: 0.3s;
+
+}
+
+.formulario {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -300px;
+    padding: 25px;
+    gap: 10px;
+    border-radius: 5px;
+    
+
+}
+input {
+    border-radius: 5px;
+    border: 1px solid gray;
+    height: 40px;
+    padding-left: 5px;
+    outline-color: #c51111;
+}
+textarea {
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 270px;
+    height: 100px;
+    padding-left: 5px;
+    outline-color: #c51111;
+
+}
+.mascara-formulario{
+    visibility: hidden;
+    position: fixed;
+    top: 0%;
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(circle, rgba(28,28,28,0.804359243697479) 0%, rgba(28,28,28,0.8435749299719888) 100%); ;
+}
+
+/* top: 30%;  
+   left=50%
+   transform: translateX(-50%);*/
+   
+   
+
+.nosso-serviço{
+    
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 15px;
+    text-decoration: none;
+}
+.nosso-serviço img {
+    width: 150px;
+}
+
+.nosso-serviço a{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nosso-serviço a:hover{
+    color:#c51111;
+    font-size: 28px;
+    transition: 0.3s;
+}
+.caixa-video-nosso-serviço {
+
+    position: fixed;
+    z-index: -1;
+    top: 0%;
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0%;
+}
+
+.mascara{
+    top: 0%;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+    background: radial-gradient(circle, rgba(28, 28, 28, 0.7147233893557423) 0%, rgba(28, 28, 28, 1) 100%);
+}
+
+@media(max-width:1100px){
+    p{
+        display: none;
+    }
+    .caixa-mae{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        padding: 10px;
+}
+    
+    .caixa-principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mario-luigi{
+        height: auto;
+        width: 80vw;
+    }
+
+    .cabezera img{
+        display: none;
+
+    }
+    .cabezera{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
