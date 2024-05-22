@@ -13,6 +13,7 @@
 </ul>
 <img src="https://github.com/EnriqueB93/projeto-mario/blob/master/img/projeto%20mario.png?raw=true">
 <br>
+<h2 align=center >Também é responsivo:</h2>
 
 <p align="center">
  <img src="https://github.com/EnriqueB93/projeto-mario/blob/master/img/projeto%20mario%20resposibidade.png?raw=true">
