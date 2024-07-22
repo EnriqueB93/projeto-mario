@@ -18,4 +18,4 @@
 <p align="center">
  <img src="https://github.com/EnriqueB93/projeto-mario/blob/master/img/projeto%20mario%20resposibidade.png?raw=true">
 </p>
-<a>https://enriqueb93.github.io/projeto-mario/</a>
+<a href="https://enriqueb93.github.io/projeto-mario/"> link</a>
